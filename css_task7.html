@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Task-07</title>
+    <style>
+        body{
+            background-color: rgb(160, 4, 98);
+        }
+        table{
+            background-color: rgb(95, 4, 58);
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            padding: 40px;
+            margin-top: 10%;
+            font-size: larger;
+            color: rgb(234, 231, 231);
+            line-height: 30px;
+        }
+        #textbox{
+            height: 50px;
+            margin-top: 10px;
+        }
+        #submit{
+            margin-top: 15px;
+            width: 300px;
+            height: 30px;
+            font-weight: 800;
+            font-size: large;
+        }
+        #submit:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="" id="" placeholder="your name"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="" id="" placeholder="your email"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="number" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                Male:<input type="radio" name="gender" value="male"> 
+                Female:<input type="radio" name="gender" value="female"> 
+                Other:<input type="radio" name="gender" value="other"> 
+            </td>
+        </tr>
+        <tr>
+            <td>Language:</td>
+            <td>
+                <select name="Language" id="">
+                    <option value="">Select language</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Odia">Odia</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Zipcode:</td>
+            <td><input type="number" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>About:</td>
+            <td><input type="text" name="" id="textbox" placeholder="Write about yourself..."></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><input id="submit" type="submit" value="Register"></td>
+        </tr>
+    </table>
+</body>
+</html>

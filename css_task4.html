@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Task-04</title>
+    <style>
+        #mySidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+
+        #home {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+
+        #about {
+            top: 80px;
+            background-color: #2196F3;
+        }
+
+        #faq {
+            top: 140px;
+            background-color: #f44336;
+        }
+
+        #contact {
+            top: 200px;
+            background-color: #555
+        }
+        #text{
+            margin-left: 200px;
+            margin-top: 50px;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mySidenav" >
+        <a href="#" id="home">Home</a>
+        <a href="#" id="about">About</a>
+        <a href="#" id="faq">FAQ</a>
+        <a href="#" id="contact">Contact</a>
+    </div>
+
+    <div id="text">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+
+</html>

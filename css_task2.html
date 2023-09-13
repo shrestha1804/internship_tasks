@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Task-02</title>
+    <style>
+        h1 {
+            font-size: x-large;
+            padding: 20px;
+            
+        }
+
+        .sidebar {
+            background-color: #83d5f1;
+            width: 250px;
+            height: fit-content;
+            border: 1px solid rgb(0, 0, 0);
+            margin: 20px;
+            font-size: xx-large;
+        }
+
+        div.sidebar ul {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0;
+            border: 5px solid rgb(245, 244, 244);
+        }
+        
+        .topbar{
+            background-color: #e3e3e3;
+            border: 1px solid rgb(0, 0, 0);
+            font-size: xx-large;
+        }
+
+        div.topbar li{
+            list-style-type: none;
+            display: inline;
+            border-collapse: collapse;
+            border-right: 1.5px solid #1f00ba;
+            
+        }
+
+        div.topbar ul{
+            margin: 0%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 0;
+            height: fit-content;
+            border: 10px solid rgb(255, 255, 255);
+        }
+        li {
+            padding: 10px;
+            text-align: left;
+        }
+
+        a:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        li:hover {
+            background-color: rgb(167, 167, 167);
+        }
+
+        a {
+            text-decoration: none;
+            color: #1f00ba;
+        }
+
+        #box{
+            margin: auto;
+        }
+
+        body{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <h1>Vertical navigation bar</h1>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="box">
+        <h1>Horizontal navigation bar</h1>
+        <div class="topbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
